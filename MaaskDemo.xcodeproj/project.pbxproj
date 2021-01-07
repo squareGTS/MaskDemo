@@ -14,6 +14,8 @@
 		1220667025A7478C0096CAF4 /* MaaskDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1220666E25A7478C0096CAF4 /* MaaskDemo.xcdatamodeld */; };
 		1220667225A7478E0096CAF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1220667125A7478E0096CAF4 /* Assets.xcassets */; };
 		1220667525A7478E0096CAF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1220667325A7478E0096CAF4 /* LaunchScreen.storyboard */; };
+		1220667E25A7487A0096CAF4 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1220667D25A748790096CAF4 /* Button.swift */; };
+		1220668125A748B70096CAF4 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1220668025A748B70096CAF4 /* View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		1220667125A7478E0096CAF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1220667425A7478E0096CAF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1220667625A7478E0096CAF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1220667D25A748790096CAF4 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		1220668025A748B70096CAF4 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 				1220666725A7478C0096CAF4 /* SceneDelegate.swift */,
 				1220666925A7478C0096CAF4 /* ViewController.swift */,
 				1220666B25A7478C0096CAF4 /* Main.storyboard */,
+				1220668025A748B70096CAF4 /* View.swift */,
+				1220667D25A748790096CAF4 /* Button.swift */,
 				1220667125A7478E0096CAF4 /* Assets.xcassets */,
 				1220667325A7478E0096CAF4 /* LaunchScreen.storyboard */,
 				1220667625A7478E0096CAF4 /* Info.plist */,
@@ -140,7 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1220667E25A7487A0096CAF4 /* Button.swift in Sources */,
 				1220667025A7478C0096CAF4 /* MaaskDemo.xcdatamodeld in Sources */,
+				1220668125A748B70096CAF4 /* View.swift in Sources */,
 				1220666A25A7478C0096CAF4 /* ViewController.swift in Sources */,
 				1220666625A7478C0096CAF4 /* AppDelegate.swift in Sources */,
 				1220666825A7478C0096CAF4 /* SceneDelegate.swift in Sources */,
